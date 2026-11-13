@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.tmp
+.git/
+.venv/
+dataset/
+outputs/
+scratch/

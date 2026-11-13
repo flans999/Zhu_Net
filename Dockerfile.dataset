@@ -1,0 +1,12 @@
+FROM python:3.14-slim
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+WORKDIR /app
+COPY requirements.txt /app/requirements.txt
+RUN python -m pip install --no-cache-dir --only-binary=:all: -r /app/requirements.txt
+COPY scripts/describe_dataset.py /app/scripts/describe_dataset.py
+RUN mkdir -p /datasets /reports && chmod 0777 /reports
+USER 1000:1000
+ENTRYPOINT ["python", "-B", "/app/scripts/describe_dataset.py"]
+CMD ["--help"]

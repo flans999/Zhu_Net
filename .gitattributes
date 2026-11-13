@@ -1,0 +1,3 @@
+# Keep byte hashes of the original training bundles stable across checkouts.
+training/** -text
+training_d4/** -text

@@ -1,0 +1,12 @@
+**
+!*.py
+!Dockerfile
+!requirements.lock
+!baseline_environment_reference.lock
+!MODEL_SOURCE.json
+!SOURCE_MANIFEST.json
+!config/
+!config/*.json
+!kernels/
+!kernels/SRM3_3.npy
+!kernels/SRM5_5.npy

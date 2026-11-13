@@ -1,0 +1,7 @@
+# Dataset image: send only its Dockerfile, dependency file and script.
+# The training image uses training/ as a separate build context.
+**
+!Dockerfile.dataset
+!requirements.txt
+!scripts/
+!scripts/describe_dataset.py

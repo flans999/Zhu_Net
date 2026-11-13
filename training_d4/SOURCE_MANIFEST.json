@@ -1,0 +1,38 @@
+{
+  "schema": "zhu-net-d4-source-manifest/v1",
+  "source_directory": "D:\\steganalysis_expanded\\lab_submission\\source",
+  "source_files": {
+    "baseline_environment_reference.lock": "007116a37ad7edc356cdba36aa0891226bec8620b9e9d70b02653a33c8511626",
+    "config/expanded.json": "4ea42fc54c66036afbff7a2c8c9e20abd12dbc35d1c4e0d6f47033e8d8b52d34",
+    "config/full.json": "4ea42fc54c66036afbff7a2c8c9e20abd12dbc35d1c4e0d6f47033e8d8b52d34",
+    "config/pilot.json": "8a2bc194a427f187760611d05ad1de043c81787812dc983ac694fdc0620b1276",
+    "contract.py": "b97bf5239036d07be2d689e7c8ca6865731f118835910cda466c0f3aa1ecc068",
+    "data.py": "a0a2ea2ef24708db4aa98ba2cdf3738778dada500ff4047bd7b78fbc3a440219",
+    "Dockerfile": "adbb4a2b2cf54b01520149bd1cc4fc4a70d8c12e30bfbe805d787e836668c0b7",
+    "kernels/SRM3_3.npy": "bc2c956a922dc4148403fbd1c5205a6ec83f7a23b862d62d579cd60450f84f7d",
+    "kernels/SRM5_5.npy": "63905c11979f74ce7af03624f168539f987fdba9f7d0ef04767420acfe77d798",
+    "model.py": "a68e9bbe435faa953f98c70a732e1e6bb40e1adfd40cba581a35e45de2dc1fb1",
+    "MODEL_SOURCE.json": "924a7a100a2b4a782d32d5e1749a54771c09e3ccf3fdea86ab52e5168bb2de41",
+    "requirements.lock": "4a5ed6a09242e05cbf55b6d408016c632689a29a027429561b5d5c9b4a2722db",
+    "runtime_info.py": "6900a55f38213bb56731503fe2a1d489eaea1160923b795a1303e50e01d9d456",
+    "train.py": "7e5a91e86ba4a4aa435b4f62b94a7f6304a0f29b6fb0c8e6de6310f149882951"
+  },
+  "added_files": {
+    ".dockerignore": "Source-only build context.",
+    "config/full-archive.json": "Only the config object from archived outputs/train/config_used.json.",
+    "SOURCE_MANIFEST.json": "Source hashes and archive provenance; not training metrics."
+  },
+  "archive": {
+    "path": "C:\\Users\\Honor\\Downloads\\zhuk2-20261107-results.tar(1).gz",
+    "sha256": "7d5a5e361aa9913c6e8301771218fd695bc5b514883302f4c18f0951ef95af2d",
+    "members": {
+      "outputs/train/metrics.json": "95a9070027676e0c295ca55a62dec531c57475f8f3355a88b995fb4cf3f6ca81",
+      "outputs/train/training_result.json": "36e672d18344e9a69c11e6a6eb13cc9799ddd171202b6fecda7a600375639fca",
+      "outputs/train/config_used.json": "954092178e94aa2774bfd477953fbce34aff43b88a129516d15d7b18dbd1b28a"
+    },
+    "signature": "5fdef050068262ea1f33e9a82a8282ba2c610dcd235ccda7cd342d59473fb5f2"
+  },
+  "local_dataset_metadata_sha256": "e7062b3d36b089f49cede0556466566062a7b7d8831ad7e7c534d0eaecf4571a",
+  "candidate_signature": "c06e00d6e7beb19861827ae2e932d5106d8eafbfe666b6823bc74b0d28595330",
+  "provenance_limit": "Local source/dataset signature differs from archived signature. Exact historical source identity is unconfirmed."
+}

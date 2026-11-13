@@ -1,0 +1,26 @@
+{
+  "phase": "expanded-d4",
+  "epochs": 2,
+  "seed": 20261025,
+  "batch_pairs": 8,
+  "learning_rate": 0.005,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "milestones": [
+    50,
+    150,
+    250
+  ],
+  "gamma": 0.2,
+  "num_workers": 0,
+  "cpu_threads": 4,
+  "checkpoint_seconds": 600,
+  "log_every_steps": 25,
+  "max_vram_gb": 24,
+  "evaluate_test": false,
+  "expected_pair_counts": {
+    "train": 13997,
+    "validation": 999,
+    "test": 4998
+  }
+}

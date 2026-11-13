@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/1204BUPT/Zhu-Net-image-steganalysis",
+  "commit": "bfed08c4156dd3feb601b8e9bfd4fbe6310cffd2",
+  "original_file": "Zhu-Net.py",
+  "original_sha256": "75ebe6b838098bfe0ce7fd6513c37d2906c7d40032d225ef03b2d45bea57263d",
+  "adapted_sha256": "a68e9bbe435faa953f98c70a732e1e6bb40e1adfd40cba581a35e45de2dc1fb1",
+  "patches": [
+    "Resolve SRM kernel paths relative to model.py, allow_pickle=False.",
+    "SPP reshape uses actual input batch dimension; pooling and network layers unchanged."
+  ],
+  "license_note": "Upstream repository contains no explicit LICENSE file in the inspected commit. Source attribution retained; no claim of MIT licensing for upstream."
+}
