@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "pairs": 10000,
+  "images": 20000,
+  "split_pair_counts": {
+    "train": 4000,
+    "validation": 1000,
+    "test": 5000
+  },
+  "distinct_cover_images": 9996,
+  "pair_id_overlap": false,
+  "cover_pixel_overlap": false,
+  "seed": 20261025,
+  "changed_pixels_min": 2761,
+  "changed_pixels_max": 10539,
+  "delta_histogram": {
+    "-1": 29840828,
+    "0": 595783851,
+    "1": 29735321
+  },
+  "dataset_sha256": "e397754f6120bda20287436864f92d956c2e449cd6c20b53c64e0c3fc334c51a",
+  "split_note": "Our reproducible split with identical covers grouped. Matching the specific article images is unconfirmed."
+}

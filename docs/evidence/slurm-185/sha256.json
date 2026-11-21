@@ -1,0 +1,9 @@
+{
+  "archive": "258172ecead192a245653fe876ee9b94767c6ffb9c715dde72fa7f2518b6877d",
+  "manifest": "9e85d54bf72727387315b022e83c2da440f4802e79d7fe090b5cad97e085e3dc",
+  "dataset_metadata": "e397754f6120bda20287436864f92d956c2e449cd6c20b53c64e0c3fc334c51a",
+  "outputs/model.pt": "b7015551e0d9df6d99e7699725b2559906edf49df179b7e58dd27bf86cf2535e",
+  "outputs/checkpoints/best.pt": "b7015551e0d9df6d99e7699725b2559906edf49df179b7e58dd27bf86cf2535e",
+  "outputs/checkpoints/last.pt": "4c1864d3cac1a4e76575c026c56bfc86cab2ad0923c5ccbb6375ab7e170687c3",
+  "training-native-env.sbatch": "6f2b086f655ed41ad2d6daac6df18063d98862384ebd4e0baef0fe9dc48b8b84"
+}

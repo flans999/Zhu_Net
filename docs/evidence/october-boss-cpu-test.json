@@ -1,0 +1,37 @@
+{
+  "full_test": true,
+  "device": "cpu",
+  "torch": "2.7.1+cpu",
+  "checkpoint_epoch": 120,
+  "model_sha256": "0a3a01c6e069546c9554d5c39e6b11d0eb45ced4959ec12561fc216d3221430d",
+  "dataset_metadata_sha256": "4147db369c870a03aca2786642052fc49b137e857ab644eb470766a7930548bb",
+  "signature_verified": true,
+  "test": {
+    "loss": 0.42797825646652354,
+    "accuracy": 0.8468387354941976,
+    "images": 9996,
+    "confusion_matrix": [
+      [
+        4071,
+        927
+      ],
+      [
+        604,
+        4394
+      ]
+    ],
+    "precision_stego": 0.8257846269498215,
+    "recall_stego": 0.8791516606642658,
+    "f1_stego": 0.8516329101657137,
+    "false_positive_rate": 0.18547418967587034,
+    "seconds": 1402.1818647000473
+  },
+  "reference_comparison": {
+    "reference_accuracy": 0.8468387354941976,
+    "accuracy_difference_percentage_points": 0.0,
+    "same_image_count": true,
+    "same_confusion_matrix": true,
+    "same_aggregate_results": true
+  },
+  "matrix_order": "rows=true, columns=predicted; 0=cover, 1=stego"
+}

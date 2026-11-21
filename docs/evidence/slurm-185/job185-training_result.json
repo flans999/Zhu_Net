@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "success": true,
+  "training_completed": true,
+  "phase": "full",
+  "completed_epochs": 400,
+  "global_step": 200000,
+  "invocation_seconds": 7739.807315424085,
+  "batch_pairs": 8,
+  "gpu_acceptance": "PASS",
+  "cuda_peak_allocated_gb": 1.8875436782836914,
+  "cuda_peak_reserved_gb": 2.40625
+}
